@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cursed Box Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>The Cursed Box Simulator</h1>
+        
+        <p id="total-boxes">Boxes Opened: 0</p>
+        <p id="total-ed-cost">Total ED Cost: 0</p>
+        <p id="total-revenue">Total Revenue: 0</p>
+        <p id="profit-loss">Profit/Loss: 0</p>
+        
+        <div class="button-container">
+            <button onclick="openBox()">Keep Using</button>
+        </div>
+        
+        <div class="button-container">
+            <button onclick="openBox25()">Keep Using x25</button>
+        </div>
+        
+        <div class="centered-form">
+            <div class="form-element">
+                <label for="load-images">Load Images</label>
+                <input type="checkbox" id="load-images" checked>
+            </div>
+            
+            <div class="form-element">
+                <label for="item-select">Select Item to Roll For: </label>
+                <select id="item-select"></select>
+            </div>
+        </div>
+
+        <div class="button-container">
+            <button onclick="startRollingForItem()">Roll Until Selected Item</button>
+        </div>
+
+        <div id="item-container"></div>
+
+        <h2>History</h2>
+        <textarea id="historyLog" readonly rows="10"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
