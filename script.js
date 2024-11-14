@@ -1,6 +1,6 @@
 // Updated items array with ED costs for revenue calculation
 const items = [
-    { name: "Vegan Deep Fried Bird Leg", value: 50, chance: 3, ed: 2000000 },
+    { name: "penis", value: 50, chance: 3, ed: 2000000 },
     { name: "Delicious Gingerbread Bird Cookie", value: 50, chance: 3, ed: 2000000 },
     { name: "Nani's Valentine's Day Chocolate", value: 50, chance: 3, ed: 2000000 },
     { name: "Nani's Special Valentine's Day Chocolate", value: 50, chance: 3, ed: 2000000 },
@@ -36,7 +36,7 @@ const items = [
     { name: "Elite Growth Elixir (200%) (5)", value: 5, chance: 2, ed: 0 },
     { name: "Tenebrous Aura (100)", value: 100, chance: 2, ed: 2800000 },
     { name: "Tenebrous Aura (200)", value: 200, chance: 1, ed: 5600000 },
-    { name: "Tenebrous Aura (300)", value: 300, chance: 100, ed: 8400000 },
+    { name: "Tenebrous Aura (300)", value: 300, chance: 0.5, ed: 8400000 },
     { name: "Imprint Swap Stone", value: 0, chance: 0.1, ed: 270000000 },
     { name: "Master Class Change Package", value: 0, chance: 0.01, ed: 1008000000 },
     { name: "Giant Ventus' Wings (Elixir) (10)", value: 10, chance: 2, ed: 0 },
